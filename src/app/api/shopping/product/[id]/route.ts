@@ -1,3 +1,4 @@
+import { ProductData } from "#/typings";
 import { NextResponse } from "next/server";
 
 
@@ -30,14 +31,16 @@ export async function GET(
                 }),
         });
 
-        const data = await response.json();
+        const productDetails = await response.json();
 
-        if(data.results.length === 0) {
+        if(productDetails.results.length === 0) {
             return NextResponse.next(
                 new Response("No product with that ID found.", { status: 404 })
             );
         }
 
-        const productData: ProductData = data.results[0];
+        const productData: ProductData = productDetails.results[0];
+
+        return NextResponse.json(productData);
 
     }
