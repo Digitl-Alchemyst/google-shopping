@@ -63,9 +63,9 @@ async function ProductPage({ params: { id } }: Props ) {
                     <div className="flex flex-col justify-between">
                         {productData.content.images?.full_size 
                         .slice(1, 3)
-                        .map((image) => (
-                            // eslint-disable-next-line react/jsx-key
+                        .map((image, i) => (
                             <img
+                            key={i}
                             className="h-[9.75rem] w-[9.75rem] p-5 border border-stone-200 rounded-md object-contain shadow-md"
                             src={image}
                             alt=''
@@ -75,9 +75,9 @@ async function ProductPage({ params: { id } }: Props ) {
                 </div>
 
                 <div className="flex space-x-6 overflow-x-scroll py-2 md:w-[30rem] scrollbar-hide">
-                    {productData.content.images?.full_size.slice(3).map((image) => (
-                        // eslint-disable-next-line react/jsx-key
+                    {productData.content.images?.full_size.slice(3).map((image, i) => (
                         <img
+                            key={i}
                             className="h-20 w-20 border border-stone-200 rounded-md object-contain shadow-md "
                             src={image}
                             alt=''
@@ -140,8 +140,7 @@ async function ProductPage({ params: { id } }: Props ) {
                                 <hr className="shadow-sm"/>
                                 <ul className="space-y-2">
                                     {productData.content.highlights?.map((highlight) => (
-                                        // eslint-disable-next-line react/jsx-key
-                                        <li className="list-disc">{highlight}</li>
+                                        <li key={highlight} className="list-disc">{highlight}</li>
                                     ))}
                                 </ul>   
                             </div>
@@ -167,7 +166,7 @@ async function ProductPage({ params: { id } }: Props ) {
                                     {productData.content.reviews.top_review.author} says:
                                 </p>
 
-                                <h5>{productData.content.reviews.top_review.title}</h5>
+                                <h5>&ldquo;{productData.content.reviews.top_review.title}&ldquo;</h5>
                             </div>
                             <div className="flex space-x-1 mb-2">
                                 {[
