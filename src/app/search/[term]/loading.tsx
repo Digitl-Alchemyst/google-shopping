@@ -8,8 +8,7 @@ function LoadingPage() {
           {/* Sidebar  */}
           <div className="w-36 md:w-64 space-y-5">
             {[...Array(4)].map((_, i) => (
-              // eslint-disable-next-line react/jsx-key
-              <div className='border rounded-r-lg md:rounded-lg p-5'>
+              <div key={i} className='border rounded-r-lg md:rounded-lg p-5'>
                 <h1 className='font-bold'>
                   <Skeleton />
                 </h1>
@@ -26,9 +25,8 @@ function LoadingPage() {
                 <h2 className='font-light text-base animate-pulse text-sky-500'> Scraping Real Google Results via OxyLabs!</h2>
               </div>
 
-              {[...Array(10)].map((item) => (
-              // eslint-disable-next-line react/jsx-key
-              <div className='p-5 border rounded-2xl'>
+              {[...Array(10)].map((item, i) => (
+              <div key={i} className='p-5 border rounded-2xl'>
                 <Skeleton count={2} />
                 <br />
                 <Skeleton count={1} />
