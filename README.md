@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img width="100" src="./public/Logo.png" alt="Google Logo">
+  <img width="200" src="./public/Logo.png" alt="Google Logo">
   <br />
   <br />
 </p>
