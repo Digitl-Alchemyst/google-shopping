@@ -4,25 +4,45 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noUnusedLocals": true,
     "jsx": "preserve",
     "incremental": true,
+    "declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+
+		"noImplicitAny": false,
+		"noImplicitThis": true,
+    "sourceMap": true,
+
+		"strictNullChecks": false,
+		// "target": "ES2015",
     "plugins": [
       {
         "name": "next"
       }
     ],
+    "rootDir": "./",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "@/c/*": ["./src/components/*"],
+      "@/h/*": ["./src/hooks/*"],
+      "@/l/*": ["./src/lib/*"],
+      "@/s/*": ["./src/store/*"],
+      "@/u/*": ["./src/util/*"],
+      "#/*": ["./public/*"],      
+    },
+    "outDir": "./out",
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts", "types.d.ts"],
   "exclude": ["node_modules"]
 }
