@@ -1,3 +1,46 @@
+<p align="center">
+  <br />
+  <img width="100" src="./public/Logo.png" alt="Google Logo">
+  <br />
+  <br />
+</p>
+<h2 align="center">Google Shopping Clone in Next.js 13.4</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
