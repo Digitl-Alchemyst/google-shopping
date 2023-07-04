@@ -22,11 +22,11 @@
     <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind badge">
   </a>
     &nbsp;
-  <a href="https://github.com/tremorlabs/tremor"> Tremor Library
+  <a href="https://github.com/tremorlabs/tremor"> Tremor
    <img src="https://badge.fury.io/gh/tremorlabs%2Ftremor.svg" alt="Tremor badge">
   </a>
     &nbsp;
-  <a href="https://github.com/dvtng/react-loading-skeleton"> React Loading Skeleton
+  <a href="https://github.com/dvtng/react-loading-skeleton"> Loading Skeleton
     <img src="https://badge.fury.io/gh/dvtng%2Freact-loading-skeleton.svg" alt="Loading Skeleton badge">
   </a>
   <br />
