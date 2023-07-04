@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SEARCHES = [
   {
     id: 1,
@@ -75,14 +77,14 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-center items-center mt-5 gap-5">
         {
           SEARCHES.map((search) => (
-            <a
-
+            <Link
+              prefetch={false}
               key={search.id}
               href={search.url}
               className={`${search.color} w-full h-36 hover:opacity-50 text-slate-300 text-lg font-bold py-2 px-4 rounded`}
             >
               {search.term}
-            </a>
+            </Link>
         ))}
       </div>
     </div>
