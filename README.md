@@ -10,7 +10,7 @@
   This is a clone of the Google shopping app created in Next.js 13.4.8 using OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
   <br />
   <br />
-  <a href="https://github.com/vercel/next.js"> Next.js
+  <a href="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">
     <img src="https://badge.fury.io/gh/tremorlabs%2Ftremor.svg" alt="Tremor badge">
   </a>
   &nbsp;
@@ -29,7 +29,7 @@
   <br />
 </p>
 
-	![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+
 
 
 
