@@ -10,11 +10,11 @@
   This is a clone of the Google shopping app created in Next.js 13.4.8 with Tailwind CSS & Typescript. It uses OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
   <br />
   <br />
-  <a href="https://github.com/vercel/next.js"> Next.js
+  <a href="https://github.com/vercel/next.js">
     <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js badge">
   </a>
   &nbsp;
-  <a href="https://github.com/microsoft/TypeScript"> Next.js
+  <a href="https://github.com/microsoft/TypeScript">
     <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript badge">
   </a>
   &nbsp;
