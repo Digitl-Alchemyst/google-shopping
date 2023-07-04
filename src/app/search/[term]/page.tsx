@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation';
 import { SearchParams, PageResult } from '#/typings';
 import { getFetchUrl } from '@/u/getFetchUrl';
+import ResultsList from '@/c/ResultsList';
 
 type Props = {
     searchParams: SearchParams;
@@ -27,7 +28,7 @@ async function Search( {searchParams, params: { term } }: Props) {
   return (
     <div>
         {/* Results List  */}
-
+        <ResultsList results={results} term={term} />
     </div>
   )
 }
