@@ -46,22 +46,8 @@ export async function POST(request: Request) {
     });
 
     const data = await response.json();
-    // console.log("🚀 ~ file: route.ts:49 ~ POST ~ data:", data)
 
     const pageResults: PageResult[] = data.results;
 
     return NextResponse.json(pageResults)
 }
-
-
-
-
-
-// const username = 'YOUR_USERNAME';
-// const password = 'YOUR_PASSWORD';
-// const body = {
-//   'source': 'google_shopping_product',
-//   'domain': 'com',
-//   'query': '5007040952399054528'
-// };
-// console.log(await response.json());
