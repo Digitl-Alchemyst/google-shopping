@@ -2,10 +2,30 @@
   <br />
   <img width="200" src="./public/Logo.png" alt="Google Logo">
   <br />
-  <br />
 </p>
+
 <h2 align="center">Google Shopping Clone in Next.js 13.4</h2>
 
+<p align="center">
+  This is a clone of the Google shopping app created in Next.js 13.4.8 using OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
+  <br />
+  <br />
+  <a href="https://github.com/vercel/next.js">
+    <img src="https://badge.fury.io/gh/tremorlabs%2Ftremor.svg" alt="Tremor badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/oxylabs">
+    <img src="https://github.com/aniftyco/awesome-tailwindcss/workflows/Lint/badge.svg" alt="Lint status badge">
+  </a>
+    &nbsp;
+  <a href="https://github.com/tremorlabs/tremor">
+   <img src="https://badge.fury.io/gh/tremorlabs%2Ftremor.svg" alt="Tremor badge">
+  </a>
+  
+    [![GitHub version](https://badge.fury.io/gh/dvtng%2Freact-loading-skeleton.svg)](https://badge.fury.io/gh/dvtng%2Freact-loading-skeleton)
+  <br />
+  <br />
+</p>
 
 
 
