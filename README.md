@@ -48,9 +48,6 @@
         => OxyLabs E-Commerce Scrapper <br>
         => Tremor Library<br>
         => React Skeleton Loading <br>
-    Imports<br>
-        => @ = ./src <br>
-        => # = ./public <br>
 </h4>
 
 <h3><ul><b>Project State</b></ul></h3>
