@@ -8,6 +8,7 @@ import SearchButton from './SearchButton'
 import { SearchSelect, SearchSelectItem, Select, SelectItem } from '@tremor/react'
 import Avatar from 'react-avatar'
 import { useRouter } from 'next/navigation'
+import Logo from '#/p/Logo.png'
 
 
 const SORT_BY_MAP = {
@@ -31,7 +32,7 @@ function Header() {
     <header className='flex flex-col items-center md:flex-row md:items-start md:space-x-6 px-2 pt-10 pb-5 md:p-10 md:pb-5'>
         <Link href='/'>
             <Image
-              src="https://links.papareact.com/208"
+              src={Logo}
               alt="Google Shopping Logo"
               width={150}
               height={150}
