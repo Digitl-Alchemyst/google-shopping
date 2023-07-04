@@ -10,7 +10,7 @@
   This is a clone of the Google shopping app created in Next.js 13.4.8 using OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
   <br />
   <br />
-  <a href="https://github.com/vercel/next.js">
+  <a href="https://github.com/vercel/next.js"> Next.js
     <img src="https://badge.fury.io/gh/tremorlabs%2Ftremor.svg" alt="Tremor badge">
   </a>
   &nbsp;
@@ -18,16 +18,18 @@
     <img src="https://github.com/aniftyco/awesome-tailwindcss/workflows/Lint/badge.svg" alt="Lint status badge">
   </a>
     &nbsp;
-  <a href="https://github.com/tremorlabs/tremor">
+  <a href="https://github.com/tremorlabs/tremor"> Tremor Library
    <img src="https://badge.fury.io/gh/tremorlabs%2Ftremor.svg" alt="Tremor badge">
   </a>
-  
-    [![GitHub version](https://badge.fury.io/gh/dvtng%2Freact-loading-skeleton.svg)](https://badge.fury.io/gh/dvtng%2Freact-loading-skeleton)
+    &nbsp;
+  <a href="https://github.com/dvtng/react-loading-skeleton"> React Loading Skeleton
+    <img src="https://badge.fury.io/gh/dvtng%2Freact-loading-skeleton.svg" alt="Loading Skeleton badge">
+  </a>
   <br />
   <br />
 </p>
 
-
+	![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
 
 
