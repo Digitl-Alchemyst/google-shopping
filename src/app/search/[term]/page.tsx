@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
-import { SearchParams } from '#/typings';
+import { SearchParams, PageResult } from '#/typings';
+import { getFetchUrl } from '@/u/getFetchUrl';
 
 type Props = {
     searchParams: SearchParams;
@@ -8,16 +9,20 @@ type Props = {
     };
 };
 
-function Search( {searchParams, params: { term } }: Props) {
+async function Search( {searchParams, params: { term } }: Props) {
     if (!term) {
         redirect("/");
     }
 
     // Fetch from Oxylabs API with searchParams
-    // const { data, error } = useSWR(
-    //     `https://data.oxylabs.io/v1/queries/${term}`,
-    //     fetcher
-    // );
+    const response = await fetch(getFetchUrl('api/search'), {
+        method: 'POST',
+        body: JSON.stringify({ searchTerm: term, ...searchParams }),
+    });
+
+    const results = await response.json() as PageResult[];
+
+    console.log('OxyLabs Response =>', results);
 
   return (
     <div>
