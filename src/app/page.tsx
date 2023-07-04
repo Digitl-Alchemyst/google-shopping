@@ -4,7 +4,7 @@ const SEARCHES = [
   {
     id: 1,
     term: 'iphone under $500',
-    url: '/search/iphone?sort_by=r$min_price=500',
+    url: '/search/iphone%20?sort_by=r&max_price=500',
     color: 'bg-red-600',
   },
   {
@@ -21,8 +21,8 @@ const SEARCHES = [
   },
   {
     id: 4,
-    term: 'andriod tablet under $1000 above $500',
-    url: '/search/andriod%20tablet?sort_by=r$min_price=500$min_price=1000',
+    term: 'andriod tablet above $500 & under $1000',
+    url: '/search/andriod%20tablet?sort_by=r&min_price=500&max_price=1000',
     color: 'bg-yellow-600',
   },
   {
