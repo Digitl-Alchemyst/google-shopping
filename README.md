@@ -63,7 +63,7 @@ Add Images, Vendors & Stars to search results
 
 ## Getting Started
 
-## **Testing Dependencies**
+## **Dependencies**
 
     Next.js 13.4.8
     Tailwind CSS 3.3.2
