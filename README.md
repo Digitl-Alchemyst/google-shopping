@@ -42,11 +42,11 @@ Skeleton Loading<a href="https://github.com/dvtng/react-loading-skeleton">
 <h2><ul><b>Features</b></ul></h2>
 
 <h4>
-<ul><b>Envrioment</b></ul><br>
+<ul><b>Envrioment</b></ul>
         📟 Next.js <br>
         🎓 Typescript <br>
         🚀 Tailwind CSS <br><br><br>
-<ul><b>Libraries & Plugins</b></ul><br>
+<ul><b>Libraries & Plugins</b></ul>
         💎 OxyLabs E-Commerce Scrapper <br>
         📁 Tremor Library<br>
         💀 React Skeleton Loading <br>
