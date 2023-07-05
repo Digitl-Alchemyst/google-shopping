@@ -4,10 +4,8 @@
   <br />
 </p>
 
-<p align="center">
-  
+<p align="center">  
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Noto+Serif&pause=3000&color=2FA4D7&center=true&vCenter=true&width=375&lines=Google+Shopping+Clone+in+Next.js+13.4)](https://git.io/typing-svg)
-
 </p>
 
 <p align="center">
