@@ -54,10 +54,10 @@
 
 <h3><ul><b>Project State</b></ul></h3>
 
-This project is completed. It is deployed to [Vercel Platform](https://vercel.com/) and uses a 7-Day free trial of OxyLabs E-Commerce Scraper API that ends on July 11th, 2023
+This project is completed. It is deployed to [Vercel Platform](https://vercel.com/) and uses a 7-Day free trial of OxyLabs E-Commerce Scraper API that ends on July 11th, 2023 If you wish to demo this project after this date you must make a request. This is reserved for serious inquires of employement or contracted services.
 <br>
 Possible To-Do List
-Add Images to search results
+Add Images, Vendors & Stars to search results
 
 <h3><ul><b>How to use</b></ul></h3>
 
