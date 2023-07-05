@@ -39,6 +39,8 @@ Skeleton Loading<a href="https://github.com/dvtng/react-loading-skeleton">
 
 <a href="https://google-shopping.vercel.app/" target="blank"><img align="center" src="https://google-shopping.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.a5549e45.png&w=256&q=75" alt="logo" height="85" width="250" /></a>
 
+Demo Video Coming Soon
+
 <h2><ul><b>Features</b></ul></h2>
 
 <h4>
@@ -82,3 +84,15 @@ Add Images, Vendors & Stars to search results
 
 The app will start on [http://localhost:3000](http://localhost:3000) in your browser. 
 
+### Deploy
+
+    vercel
+    vercel --prod
+
+Add your .env variables to vercel, project is ready to deploy for testing.
+
+Special thanks to Sonny Sangha AKA Papa React an amazing tutor & invaluable resource to the dev community
+
+<h4><ul><b>Build this project yourself</b></ul></h4>
+
+[Build Tutorial by Papa React](https://www.youtube.com/watch?v=-8VCUUBHBKc&t=2s)
