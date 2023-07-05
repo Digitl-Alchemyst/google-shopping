@@ -4,9 +4,9 @@
   <br />
 </p>
 
- 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif&pause=3000&color=2FA4D7&center=true&vCenter=true&width=375&lines=Google+Shopping+Clone+in+Next.js+13.4" alt=typing svg align="center">
-
+ <p svg align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif&pause=3000&color=2FA4D7&center=true&vCenter=true&width=375&lines=Google+Shopping+Clone+in+Next.js+13.4" alt=typing>
+ </p>
 
 <p align="center">
   This is a clone of the Google shopping app created in Next.js 13.4.8 with Tailwind CSS & Typescript. It uses OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
