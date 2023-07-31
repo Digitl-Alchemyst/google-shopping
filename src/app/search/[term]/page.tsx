@@ -23,7 +23,8 @@ async function Search( {searchParams, params: { term } }: Props) {
 
     const results = await response.json() as PageResult[];
 
-    // console.log('OxyLabs Response =>', results);
+
+    
 
   return (
     <div>

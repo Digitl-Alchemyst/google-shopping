@@ -47,7 +47,10 @@ export async function POST(request: Request) {
 
     const data = await response.json();
 
+
     const pageResults: PageResult[] = data.results;
+    
 
     return NextResponse.json(pageResults)
+
 }

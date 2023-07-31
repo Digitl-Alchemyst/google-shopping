@@ -57,6 +57,10 @@ type Organic = {
     };
     price_str: string;
     pos_overall: number;
+    images: {
+        thumbnail: string;
+        full_size: string;
+    };
 };
 
 export type ProductData = {
