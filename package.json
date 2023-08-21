@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "@types/d3-path": "^3.0.0",
-    "@types/node": "^20.4.5"
+    "@types/node": "^20.5.1"
   }
 }
