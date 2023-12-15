@@ -2,7 +2,7 @@
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import React from 'react'
-import { experimental_useFormStatus as useFormStatus } from 'react-dom';
+import { useFormStatus as useFormStatus } from 'react-dom';
 
 function SearchButton() {
     const { pending } = useFormStatus();

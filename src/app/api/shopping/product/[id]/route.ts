@@ -28,6 +28,7 @@ export async function GET(
                     domain: 'com',
                     query: id,
                     parse: true,
+                    geo_location: "United States",
                 }),
         });
 
