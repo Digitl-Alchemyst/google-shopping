@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const SEARCHES = [
   {
@@ -66,26 +66,53 @@ const SEARCHES = [
 export default function Home() {
   return (
     <div className="p-10 pt-10 text-center md:text-left">
-      <h1 className="text-sky-500 animate-pulse">Google Shopping Clone with OxyLabs Webscraper & Tremor</h1>
+      <h1 className="text-sky-500 animate-pulse">
+        Google Shopping Clone with OxyLabs Webscraper & Tremor
+      </h1>
 
       <h2>
-        To try this app just search for any product in the search bar above or click on one of the pre-defined searches below
+        To try this app just search for any product in the search bar above or
+        click on one of the pre-defined searches below
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-center items-center mt-5 gap-5">
-        {
-          SEARCHES.map((search) => (
-            <Link
-              prefetch={false}
-              key={search.id}
-              href={search.url}
-              className={`${search.color} w-full h-36 hover:opacity-50 text-slate-300 text-lg font-bold py-2 px-4 rounded`}
-            >
-              {search.term}
-            </Link>
+        {SEARCHES.map((search) => (
+          <Link
+            prefetch={false}
+            key={search.id}
+            href={search.url}
+            className={`${search.color} w-full h-36 hover:opacity-50 text-slate-300 text-lg font-bold py-2 px-4 rounded`}
+          >
+            {search.term}
+          </Link>
         ))}
       </div>
-      <p></p>
+      <div className="flex flex-col max-w-4xl">
+        <p className="flex mt-8 items-center">
+          This project uses a 7-Day free trial of OxyLabs E-Commerce Scraper API
+          that ends on December 27th, 2023 If you wish to demo this project
+          after this date you must make a request. This is reserved for serious
+          inquiries of employment or contracted services. The hosting on Vercel
+          uses the free hobby tier which has a 10 second timeout on all server
+          functions. The scrapping can take longer than this limit depending on
+          the results returned and can result in the triggering of this time out
+          from Vercel.
+        </p>
+        <div className="mt-8 flex flex-col space-y-4">
+          <div className="gap-x-6 flex">
+            You can make contact through my portfolio site for a full demo{' '}
+            <Link href="https://digitl-alchemyst-portfolio.vercel.app/contact/">
+              <button className='border border-slate-500 px-2 rounded-md py-1 '>Visit Now</button>
+            </Link>
+          </div>
+          <div className='gap-x-6 flex'>
+            You can view a demo video of the app on my youtube channel{' '}
+            <Link href="https://www.youtube.com/watch?v=L9NYGsUa5Gc">
+              <button className='border border-slate-500 px-2 rounded-md py-1 '>Watch Now</button>
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
