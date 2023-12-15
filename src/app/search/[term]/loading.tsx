@@ -25,6 +25,7 @@ function LoadingPage() {
                 <h2 className='font-light text-base animate-pulse text-sky-500'> Scraping Real Google Results via OxyLabs!</h2>
               </div>
 
+              {/* Map through an array of Skeleton Loading Frames  */}
               {[...Array(10)].map((item, i) => (
               <div key={i} className='p-5 border rounded-2xl'>
                 <Skeleton count={2} />
@@ -42,3 +43,5 @@ function LoadingPage() {
 }
 
 export default LoadingPage;
+
+// This code is creating a loading page with a sidebar and a main content area. The loading content includes titles, additional information, and frames for potential results.

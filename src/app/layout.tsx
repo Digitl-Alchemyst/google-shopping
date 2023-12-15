@@ -1,5 +1,5 @@
-import Header from '@/c/Header'
 import './globals.css'
+import Header from '@/c/Header'
 
 export const metadata = {
   title: 'Google Shopping',

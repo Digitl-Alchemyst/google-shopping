@@ -1,11 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        serverActions: true,
-    },
-    images: {
-        domains: ['localhost', 'links.papareact.com'],
-},
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'links.papareact.com',
+        pathname: '**',
+      },
+    ],
+  },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;

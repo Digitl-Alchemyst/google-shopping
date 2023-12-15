@@ -9,7 +9,7 @@
  </p>
 
 <p align="center">
-  This is a clone of the Google shopping app created in Next.js 13.4.8 with Tailwind CSS & Typescript. It uses OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
+  This is a clone of the Google shopping app created in Next.js with Tailwind CSS & Typescript. It uses OxyLabs Ecommerce Scrapper. It is built with Tremor Libraries & uses React Skeleton Loading while utilyzing Next.js Server Caching
   <br />
   <br />
   <a href="https://github.com/vercel/next.js">
@@ -39,7 +39,7 @@ Skeleton Loading<a href="https://github.com/dvtng/react-loading-skeleton">
 
 <a href="https://google-shopping.vercel.app/" target="blank"><img align="center" src="https://google-shopping.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogo.a5549e45.png&w=256&q=75" alt="logo" height="85" width="250" /></a>
 
-Demo Video Coming Soon
+[Demo Video](https://www.youtube.com/watch?v=L9NYGsUa5Gc)
 
 <h2><ul><b>Features</b></ul></h2>
 
@@ -56,11 +56,8 @@ Demo Video Coming Soon
 
 <h3><ul><b>Project State</b></ul></h3>
 
-This project is completed. It is deployed to [Vercel Platform](https://vercel.com/) and uses a 7-Day free trial of OxyLabs E-Commerce Scraper API that ends on July 11th, 2023 If you wish to demo this project after this date you must make a request. This is reserved for serious inquires of employement or contracted services.
+This project is completed. It is deployed to [Vercel Platform](https://vercel.com/) and uses a 7-Day free trial of OxyLabs E-Commerce Scraper API that ends on December 27th, 2023 If you wish to demo this project after this date you must make a request. This is reserved for serious inquires of employement or contracted services. The hosting on Vercel uses the free hobby tier which has a 10 second timeout on all server functions. The scrapping can take longer than this limit and can result in the triggering of this time out from Vercel. 
 <br>
-Possible To-Do List
-Add Images, Vendors & Stars to search results
-
 <h3><ul><b>How to use</b></ul></h3>
 
 ## Getting Started
@@ -78,6 +75,7 @@ Add Images, Vendors & Stars to search results
 ### Install Dependencies
 
     npm i
+
 ### Start Dev Enviroment
 
     npm run dev
@@ -89,9 +87,16 @@ The app will start on [http://localhost:3000](http://localhost:3000) in your bro
     vercel
     vercel --prod
 
-Add your .env variables to vercel, project is ready to deploy for testing.
+Create an account with Oxylabs [Oxylabs](https://oxylabs.io/) and activate the Google E-Commerce Scraper API trial
+Add Oxylabs username & password to .env.local file
+Deploy to Vercel
+Cancel Deploy after it starts
+Add your .env variables to Vercel in the project settings > enviroment variables
+Deploy to Vercel
+App is ready for testing in both local dev and production enviroments 
+**Remember the 10 second time out with Vercel hobby account tier the $20 per month Pro tier will remedy this.
 
-Special thanks to Sonny Sangha AKA Papa React an amazing tutor & invaluable resource to the dev community
+Special thanks to Sonny Sangha AKA Papa React an amazing tutor & invaluable resource to the developer community
 
 <h4><ul><b>Build this project yourself</b></ul></h4>
 

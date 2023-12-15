@@ -1,4 +1,5 @@
 import { PageResult } from "#/typings";
+import Image from "next/image";
 import Link from "next/link";
 
 export const revalidate = 360; // 6 minutes
@@ -58,7 +59,7 @@ function ResultsList({ results, term }: Props) {
             </div>
 
             {pageResult?.content?.results?.organic?.map((item) => {
-              console.log(item); // Print all parameters of the organic object
+              // console.log(item); // Print all parameters of the organic object
 
               return (
                 <Link
@@ -68,6 +69,7 @@ function ResultsList({ results, term }: Props) {
                   key={item.pos}
                   prefetch={false}
                   href={
+                    // If the product does not have a google shopping products page, link directly to the item page on its website.
                     item.url.includes("url?url=")
                       ? // Route to External URL
                         item.url.split("url?url=")?.[1]
@@ -76,12 +78,12 @@ function ResultsList({ results, term }: Props) {
                   }
                 >
                   <div className="border-b p-5 flex-1">
-                    {/* <Image
+                    <Image
                       src={item.images?.thumbnail?.[0]}
                       alt="Product Image"
                       width={200}
                       height={200}
-                    /> */}
+                    />
                     <p className="text-sky-400 text-lg font-bold ">
                       {item.title}
                     </p>

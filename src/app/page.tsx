@@ -63,8 +63,6 @@ const SEARCHES = [
   },
 ];
 
-
-
 export default function Home() {
   return (
     <div className="p-10 pt-10 text-center md:text-left">
@@ -87,6 +85,7 @@ export default function Home() {
             </Link>
         ))}
       </div>
+      <p></p>
     </div>
   )
 }
